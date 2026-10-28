@@ -32,6 +32,15 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
+      ],
+      "expo-sharing",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": false,
+          "savePhotosPermission": "Ethos saves your earned badge certificates to your photo library.",
+          "granularPermissions": ["photo"]
+        }
       ]
     ],
     "experiments": {
